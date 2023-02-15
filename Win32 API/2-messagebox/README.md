@@ -49,7 +49,7 @@ int WINAPI wWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PWSTR pCmdLine
 
 ![image](https://user-images.githubusercontent.com/59679082/219120513-2798a492-c9d8-4cbf-a3ba-36009ba92603.png)
 
-From this example, we can see that if we were to typecast the strings using the output is complete gibberish. Therefore, although it would get rid of an error; the output would be wrong. Let's try to keep the integrity of our strings.
+From this example, we can see that if we were to typecast the strings, the output turns into complete gibberish. Therefore, although it would get rid of an error; the output would be wrong. Let's try to keep the integrity of our strings.
 
 ## ANSI
 
