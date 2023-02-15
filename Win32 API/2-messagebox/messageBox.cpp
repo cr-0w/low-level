@@ -2,7 +2,7 @@
 
 /*
 int MessageBox(
-  [in, optional] HWND    hWnd,	       | 	a handle to the owner window of the message box to be created; if this is set to NULL, then the box has no owner window.
+  [in, optional] HWND    hWnd,	       |    a handle to the owner window of the message box to be created; if this is set to NULL, then the box has no owner window.
   [in, optional] LPCTSTR lpText,       |    the message box's message itself.
   [in, optional] LPCTSTR lpCaption,    |    the message box's title.
   [in]           UINT    uType         |    The contents and behavior of the dialog box. This parameter can be a combination of flags from the following groups of flags.
