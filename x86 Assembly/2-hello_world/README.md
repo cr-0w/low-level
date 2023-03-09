@@ -205,8 +205,10 @@ We get the same results as the assembly code!
 const char *msg = "[+] cr0w waz here!";
 
 int main(void){
+
 	syscall(SYS_write, 1, msg, strlen(msg));
 	syscall(SYS_exit, 0);
+}
 ```
 
 I really hope you found this as interesting as I did; and moreover, I hope you learned something! We just did our first hello world in assembly! 😄
